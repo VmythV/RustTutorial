@@ -1,6 +1,4 @@
 /**/*.iml
-/*/*/target/
 /.idea/
-/start/target/
-/start/Cargo.lock
-/guessing_game/Cargo.lock
+/**/Cargo.lock
+/**/target/
