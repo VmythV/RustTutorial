@@ -1,0 +1,19 @@
+# TOML(Tom's Obvious,Minial Language)格式，是Cargo的配置格式
+# [package]，是一个区域标题，表示下方内容是用来配置包(package)的
+#   -name:项目名
+#   -version:项目版本
+#   -authors:项目作者
+#   -edition:使用的Rust版本
+
+# [dependencies],另一个区域开始，他会列出项目的依赖项
+
+# 在Rust里面，代码的包称作 crate
+
+[package]
+name = "RustTutorial"
+version = "0.1.0"
+edition = "2021"
+authors = ["Myth"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
